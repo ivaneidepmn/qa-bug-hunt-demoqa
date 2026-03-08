@@ -1,9 +1,15 @@
+<p align="center">
+<img src="assets/qa-bug-hunt-banner.png" width="900">
+</p>
+
 # QA Bug Hunt – DemoQA
 
 Repository documenting bugs identified during exploratory testing of the DemoQA website.
 
-Application tested:
+Application tested:  
 https://demoqa.com/
+
+---
 
 ## Objective
 
