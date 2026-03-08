@@ -17,6 +17,9 @@ Device: Desktop
 ## Type
 Validation Issue / UX Issue
 
+## Category
+Validation / UX
+
 ## Severity
 Medium
 
@@ -24,7 +27,7 @@ Medium
 Medium
 
 ## Description
-When entering a salary value using a decimal format (e.g., "15.600"), the system marks the field as invalid but does not display any message explaining the validation error.
+When entering a salary value using a decimal format (e.g., "15.600"), the system marks the field as invalid but does not display any validation message explaining the error or the accepted format.
 
 ## Steps to Reproduce
 
@@ -44,4 +47,4 @@ The field is highlighted in red with an error icon, but no message explains the 
 Users may not understand why the value is invalid or what format should be used.
 
 ## Evidence
-Screenshot stored in `/evidence/screenshots`
+Screenshot stored in `/evidence/screenshots/bug-004-invalid-salary-format.png`

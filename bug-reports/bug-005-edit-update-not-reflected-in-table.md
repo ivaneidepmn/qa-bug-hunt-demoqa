@@ -17,6 +17,9 @@ Device: Desktop
 ## Type
 UI Bug / Data Refresh Issue
 
+## Category
+CRUD / Update
+
 ## Severity
 Medium
 
@@ -26,25 +29,25 @@ Medium
 ## Description
 When editing an existing record and submitting the changes, the updated values are not reflected in the WebTable view.
 
-However, when clicking the Edit button again for the same record, the updated values appear in the form, indicating that the data was successfully updated but the table view was not refreshed.
+However, when reopening the edit dialog for the same record, the updated values appear in the form, indicating that the data was successfully updated but the WebTable view was not refreshed.
 
 ## Steps to Reproduce
 
-1. Open https://demoqa.com/webtables
+1. Navigate to https://demoqa.com/webtables
 2. Click the edit icon for an existing record
 3. Modify one or more fields
 4. Click Submit
-5. Observe the table values
+5. Observe the values displayed in the table
 6. Click Edit again for the same record
 
 ## Expected Result
 The WebTable should immediately display the updated values after submission.
 
 ## Actual Result
-The WebTable continues to display the previous values, even though the updated values are stored and visible when opening the edit form again.
+The WebTable continues to display the previous values, even though the updated values are stored and visible when reopening the edit form.
 
 ## Impact
 Users may believe the update failed because the table does not reflect the changes.
 
 ## Evidence
-GIF stored in `/evidence/gifs`
+GIF stored in `/evidence/gifs/bug-005-edit-update-not-reflected-in-table.gif`

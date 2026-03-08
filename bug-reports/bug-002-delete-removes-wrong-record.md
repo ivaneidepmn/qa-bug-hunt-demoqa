@@ -27,13 +27,13 @@ High
 High
 
 ## Description
-When clicking the delete icon for a specific row in the WebTables list, the system removes the last record in the table instead of the selected one.
+When clicking the delete icon for a specific row in the WebTables list, the system incorrectly deletes the last record in the table instead of the selected row.
 
 ## Steps to Reproduce
 
-1. Open https://demoqa.com/webtables
-2. Identify multiple records in the table
-3. Click the delete icon for the first or middle row
+1. Navigate to https://demoqa.com/webtables
+2. Ensure multiple records are present in the table
+3. Click the delete icon on the first or middle row
 4. Observe which record is removed
 
 ## Expected Result
@@ -46,4 +46,4 @@ The system deletes the last record in the table regardless of which delete icon 
 Users may accidentally delete the wrong records, causing data inconsistency and potential data loss.
 
 ## Evidence
-GIF stored in `/evidence/gifs`
+GIF stored in `/evidence/gifs/bug-002-delete-removes-wrong-record.gif`
